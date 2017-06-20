@@ -148,6 +148,7 @@ def process_data():
     print('\n:: random.choice(phoneme_lists)')
     print(random.choice(phoneme_lists))
     print(random.choice(phoneme_lists))
+    print('successful!')
 
     print('\n>> Index phonemes')
     idx2pho, pho2idx = index_phonemes(phoneme_lists)
